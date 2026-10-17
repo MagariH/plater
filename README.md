@@ -14,3 +14,19 @@ Built for **Neighborhood Hacks**.
 - Python & FastAPI
 - SQLite
 - HTML5, Tailwind CSS, JavaScript
+- 
+## 💻 How to Run Locally
+
+To run this project on your own machine, you need Python installed. Follow these quick steps:
+
+**1. Install the required libraries:**
+Open your terminal or command prompt and install the necessary Python packages:
+```bash
+pip install fastapi uvicorn pydantic
+2. Start the application server:
+Navigate to the folder containing plater.py and run the following command to start the Uvicorn web server:
+python -m uvicorn plater:app --reload
+
+3. Open the app:
+Once the server is running, open your web browser and go to:
+http://127.0.0.1:8000
